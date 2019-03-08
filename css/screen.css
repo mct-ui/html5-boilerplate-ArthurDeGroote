@@ -122,6 +122,10 @@ hr {
     margin: 0 0 24px;
 }
 
+a:visited,
+a:active {
+    color: Blueviolet;
+}
 a:hover,
 a:focus {
     color: Crimson;
@@ -132,10 +136,7 @@ a {
     transition: all .1s ease-in-out;
 }
 
-a:visited,
-a:active {
-    color: Blueviolet;
-}
+
 /*
     Media Queries
     ---
